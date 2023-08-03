@@ -6,7 +6,7 @@ let years = document.getElementById('year');
 let form = document.getElementById('form');
 
 form?.addEventListener('submit', (e) => {
-    e.preventDefault;
+    e.preventDefault();
     Validate();
 })
 
